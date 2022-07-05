@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import type { MsgProps } from './types'
 
-defineProps<{ msg: string }>()
-
-const count = ref(0)
+defineProps<MsgProps>()
 </script>
 
 <template>
